@@ -473,7 +473,28 @@ section .content p.intro-price {
 }
 
 section .content p.intro-price .strike {
-  text-decoration: line-through;
-  font-weight: normal;
-  color: rgba(0, 0, 0, 0.5);
+    text-decoration: line-through;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/***********************************************************************************
+Mailchimp Form Embed
+************************************************************************************/
+
+#mc_embed_signup label {
+    font-family: 'gotham-bold', sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    color: #fffc;
+}
+
+#mc_embed_signup input[type='email'] {
+    text-align: left;
+    color: #7850a9;
+    background-color: rgba(255,255,255,0.8);
+    margin: 8px 0 16px;
+    padding-left: 16px;
+    border-radius: 5px;
 }
