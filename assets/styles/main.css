@@ -483,14 +483,49 @@ section .content p.intro-price .strike {
 Mailchimp Form Embed
 ************************************************************************************/
 
-#mc_embed_signup label {
+#mc_embed_signup form.embed {
+    padding: 0;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form form.embed div.mce_inline_error {
+    background-color: transparent;
+    padding: 0;
+    font-family: 'gotham-bold', sans-serif;
+}
+
+#mc_embed_signup form.embed .mc-field-group {
+    width: 100%;
+}
+
+#mc_embed_signup form.embed input.button {
+    border-radius: 5px;
+    font-family: 'gotham-bold', sans-serif;
+    font-size: 14px;
+    line-height: 50px;
+    color: #333;
+    height: 50px;
+    float: left;
+    position: relative;
+    padding: 0 20px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.25);
+    margin: 0 20px 1px 0;
+}
+
+#mc_embed_signup form.embed input.button:hover {
+    color: #333333bf;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.075);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mc_embed_signup form.embed label {
     font-family: 'gotham-bold', sans-serif;
     font-size: 14px;
     line-height: 1;
     color: #fffc;
 }
 
-#mc_embed_signup input[type='email'] {
+#mc_embed_signup form.embed input[type='email'] {
     text-align: left;
     color: #7850a9;
     background-color: rgba(255,255,255,0.8);
